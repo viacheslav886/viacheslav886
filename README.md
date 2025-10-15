@@ -1,4 +1,4 @@
-## Hi there 👋
+## Репозиторий для ИТИСа 👋
 
 <!--
 **viacheslav886/viacheslav886** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
