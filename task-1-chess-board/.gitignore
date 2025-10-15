@@ -1,0 +1,26 @@
+## .NET
+bin/
+obj/
+*.user
+*.suo
+*.cache
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+## Visual Studio
+.vs/
+*.csproj
+*.sln
+
+## OS
+.DS_Store
+Thumbs.db
+
+## Runtime
+publish/
+*.exe
+*.dll
