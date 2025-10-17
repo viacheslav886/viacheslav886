@@ -1,0 +1,15 @@
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.rsuser
+*.userosscache
+*.sln.docstates
+
+# IDE and OS files
+.vs/
+.DS_Store
+Thumbs.db
