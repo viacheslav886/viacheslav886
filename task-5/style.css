@@ -1,0 +1,36 @@
+/* Основные стили страницы */
+body {
+    background: linear-gradient(135deg, #74ABE2, #5563DE);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* Контейнер для центрирования */
+.container {
+    text-align: center;
+}
+
+/* Кнопка */
+.colorful-btn {
+    background-color: #fff;
+    color: #333;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+/* Эффект при наведении */
+.colorful-btn:hover {
+    background-color: #ff6b81;
+    color: white;
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
