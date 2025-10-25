@@ -1,0 +1,24 @@
+
+---
+
+## 🔧 .gitignore
+
+(используется стандартный шаблон для .NET)
+
+```gitignore
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Visual Studio
+.vs/
