@@ -1,0 +1,46 @@
+using System.Collections.Generic;
+using NUnit.Framework;
+using WordStatistics;
+
+namespace WordStatistics.Tests
+{
+    [TestFixture]
+    public class WordAnalyzerTests
+    {
+        [Test]
+        public void CountWordFrequencies_BasicTest()
+        {
+            var text = "Hello world! Hello chat.";
+            var result = WordAnalyzer.CountWordFrequencies(text);
+
+            Assert.AreEqual(2, result["hello"]);
+            Assert.AreEqual(1, result["world"]);
+            Assert.AreEqual(1, result["chat"]);
+        }
+
+        [Test]
+        public void GetTopWords_ReturnsMostFrequent()
+        {
+            var text = "a a b b c c c";
+            var top2 = WordAnalyzer.GetTopWords(text, 2);
+
+            CollectionAssert.AreEqual(new List<string> { "c", "a" }, top2);
+        }
+
+        [Test]
+        public void FindWordsByPrefix_WorksCorrectly()
+        {
+            var text = "cat car carbon dog";
+            var result = WordAnalyzer.FindWordsByPrefix(text, "ca");
+
+            CollectionAssert.AreEqual(new List<string> { "car", "carbon", "cat" }, result);
+        }
+
+        [Test]
+        public void EmptyText_ReturnsEmptyResults()
+        {
+            var result = WordAnalyzer.CountWordFrequencies("");
+            Assert.IsEmpty(result);
+        }
+    }
+}
