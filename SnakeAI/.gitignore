@@ -1,0 +1,73 @@
+# Build folders
+/bin/
+/obj/
+/out/
+/publish/
+/dist/
+
+# VS / Rider / VSCode
+.vs/
+.idea/
+.vscode/
+
+# Solution / user files
+*.sln.docstates
+*.user
+*.suo
+*.userosscache
+*.sln.iml
+
+# Dotnet / NuGet
+packages/
+*.nupkg
+project.lock.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs / temp
+*.log
+*.tmp
+*.temp
+*.bak
+
+# Test results / coverage
+TestResult.xml
+test-results/
+coverage/
+*.coverage
+*.coveragexml
+
+# Runtime files
+*.pid
+*.seed
+*.pidb
+*.db
+*.dat
+*.save
+
+# Generated files
+*.cache
+*.cacheidx
+
+# Publish / release artifacts
+publish/
+release/
+*.zip
+
+# Resharper / Rider caches
+_ReSharper*/
+.idea/
+
+# Unity (if project is ever ported to Unity)
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+UserSettings/
+
+# Other
+*.log.*
