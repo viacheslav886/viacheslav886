@@ -1,32 +1,36 @@
 <!-- garland.svg -->
-<svg width="720" height="90" viewBox="0 0 720 90" xmlns="http://www.w3.org/2000/svg">
-  <path d="M20 45 Q360 5 700 45" stroke="#555" stroke-width="2" fill="none"/>
+<svg width="100%" height="110" viewBox="0 0 1200 110" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
 
-  <circle cx="90" cy="34" r="7" fill="#ff4d4d">
+  <!-- wire -->
+  <path d="M0 30 Q600 90 1200 30" stroke="#666" stroke-width="2" fill="none"/>
+
+  <!-- bulbs -->
+  <circle cx="100" cy="70" r="8" fill="#ff4d4d">
     <animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/>
   </circle>
 
-  <circle cx="180" cy="26" r="7" fill="#ffd93d">
+  <circle cx="250" cy="78" r="8" fill="#ffd93d">
     <animate attributeName="opacity" values="0.3;1;0.3" dur="1.4s" repeatCount="indefinite"/>
   </circle>
 
-  <circle cx="270" cy="22" r="7" fill="#6bcf63">
+  <circle cx="400" cy="85" r="8" fill="#6bcf63">
     <animate attributeName="opacity" values="1;0.4;1" dur="1.1s" repeatCount="indefinite"/>
   </circle>
 
-  <circle cx="360" cy="20" r="7" fill="#4dabf7">
+  <circle cx="600" cy="88" r="8" fill="#4dabf7">
     <animate attributeName="opacity" values="0.4;1;0.4" dur="1.3s" repeatCount="indefinite"/>
   </circle>
 
-  <circle cx="450" cy="22" r="7" fill="#da77f2">
+  <circle cx="800" cy="85" r="8" fill="#da77f2">
     <animate attributeName="opacity" values="1;0.3;1" dur="1.2s" repeatCount="indefinite"/>
   </circle>
 
-  <circle cx="540" cy="26" r="7" fill="#ffd93d">
+  <circle cx="950" cy="78" r="8" fill="#ffd93d">
     <animate attributeName="opacity" values="0.3;1;0.3" dur="1.4s" repeatCount="indefinite"/>
   </circle>
 
-  <circle cx="630" cy="34" r="7" fill="#ff4d4d">
+  <circle cx="1100" cy="70" r="8" fill="#ff4d4d">
     <animate attributeName="opacity" values="1;0.4;1" dur="1.1s" repeatCount="indefinite"/>
   </circle>
+
 </svg>
