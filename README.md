@@ -8,5 +8,5 @@
 ---
 
 <p align="center">
-  <img src="garland.svg" alt="New Year Garland" />
+  <img src="garland.svg" alt="New Year Garland" width="100%" />
 </p>
